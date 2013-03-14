@@ -9,6 +9,7 @@ import javax.swing.Timer;
 
 public abstract class AbstractEntity implements ActionListener,IEntity{
 	
+	// local properties
 	protected Image _gfx;
 	protected Board _board;
 	protected int _x;
